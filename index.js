@@ -17,7 +17,7 @@ const options = {
 const app = express()
 app.use(cors(options))
 app.use(express.json())
-app.use("/post", Router)
+app.use("/", Router)
 
 
 

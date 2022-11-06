@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "../../../Vue_Rostelecom_Backend/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ../../../Vue_Rostelecom_Backend/index.js",
-    "dev": "nodemon ../../../Vue_Rostelecom_Backend/index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
