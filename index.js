@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import Router from "../../../Vue_Rostelecom_Backend/Router.js";
 import cors from "cors"
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DB_URL = `mongodb+srv://utkamag:Hesoyam1973@cluster0.ymhhgli.mongodb.net/?retryWrites=true&w=majority`
 
 const app = express()
