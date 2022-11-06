@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from "mongoose";
-import Router from "../../../Vue_Rostelecom_Backend/Router.js";
+import Router from "./Router.js";
 import cors from "cors"
 
 const PORT = process.env.PORT || 3000;

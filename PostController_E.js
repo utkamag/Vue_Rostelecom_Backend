@@ -1,4 +1,4 @@
-import PostServiceE from "../Service/PostServiceE.js";
+import PostServiceE from "./PostServiceE.js";
 
 class PostController_E {
     async create(req, res) {

@@ -1,8 +1,8 @@
 import Router from "express"
-import PostController_C from "../../../../Vue_Rostelecom_Backend/PostController_C.js";
-import PostController_D from "../../../../Vue_Rostelecom_Backend/PostController_D.js";
-import PostController_E from "../../../../Vue_Rostelecom_Backend/PostController_E.js";
-import PostController_F from "../../../../Vue_Rostelecom_Backend/PostController_F.js";
+import PostController_C from "./PostController_C.js";
+import PostController_D from "./PostController_D.js";
+import PostController_E from "./PostController_E.js";
+import PostController_F from "./PostController_F.js";
 
 const router = new Router()
 

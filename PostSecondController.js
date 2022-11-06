@@ -1,4 +1,4 @@
-import SecondPostPost from "../Post/Post.js";
+import SecondPost from "./Post.js";
 
 class PostController {
     async create(req, res) {

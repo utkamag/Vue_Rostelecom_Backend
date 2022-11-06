@@ -1,4 +1,4 @@
-import PostD from "../Post/PostD.js";
+import PostD from "./PostD.js";
 
 class PostServiceD {
     async create(post) {
