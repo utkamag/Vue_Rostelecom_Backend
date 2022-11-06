@@ -6,11 +6,16 @@ import cors from "cors"
 const PORT = process.env.PORT || 3000;
 const DB_URL = `mongodb+srv://utkamag:Hesoyam1973@cluster0.ymhhgli.mongodb.net/?retryWrites=true&w=majority`
 
-const app = express()
 
-app.use(cors({
-    "origin": "*"
-}))
+const options = {
+    "origin": "*",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "preflightContinue": false,
+    "optionsSuccessStatus": 204
+}
+
+const app = express()
+app.use(cors(options))
 app.use(express.json())
 app.use("/post", Router)
 
